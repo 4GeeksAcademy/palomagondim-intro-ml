@@ -1,0 +1,47 @@
+{
+    "dataset_usado": "CON_outliers",
+    "best_params": {
+        "criterion": "entropy",
+        "max_depth": 3,
+        "max_features": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2
+    },
+    "cv_score": 0.7476609356257498,
+    "test_accuracy": 0.6883116883116883,
+    "random_state": 42,
+    "feature_importances": [
+        {
+            "Caracter\u00edstica": "Glucose",
+            "Importancia": 0.6955676752581983
+        },
+        {
+            "Caracter\u00edstica": "BMI",
+            "Importancia": 0.2697891609479684
+        },
+        {
+            "Caracter\u00edstica": "Insulin",
+            "Importancia": 0.034643163793833275
+        },
+        {
+            "Caracter\u00edstica": "Pregnancies",
+            "Importancia": 0.0
+        },
+        {
+            "Caracter\u00edstica": "SkinThickness",
+            "Importancia": 0.0
+        },
+        {
+            "Caracter\u00edstica": "BloodPressure",
+            "Importancia": 0.0
+        },
+        {
+            "Caracter\u00edstica": "DiabetesPedigreeFunction",
+            "Importancia": 0.0
+        },
+        {
+            "Caracter\u00edstica": "Age",
+            "Importancia": 0.0
+        }
+    ]
+}
