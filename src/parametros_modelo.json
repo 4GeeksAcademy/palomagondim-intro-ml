@@ -1,46 +1,46 @@
 {
-    "dataset_usado": "CON_outliers",
+    "dataset_usado": "SIN_outliers",
     "best_params": {
-        "criterion": "entropy",
-        "max_depth": 3,
+        "criterion": "gini",
+        "max_depth": 5,
         "max_features": null,
         "min_samples_leaf": 1,
         "min_samples_split": 2
     },
-    "cv_score": 0.7476609356257498,
-    "test_accuracy": 0.6883116883116883,
+    "cv_score": 0.7631578947368421,
+    "test_accuracy": 0.7142857142857143,
     "random_state": 42,
     "feature_importances": [
         {
             "Caracter\u00edstica": "Glucose",
-            "Importancia": 0.6955676752581983
+            "Importancia": 0.5572627060857313
         },
         {
             "Caracter\u00edstica": "BMI",
-            "Importancia": 0.2697891609479684
-        },
-        {
-            "Caracter\u00edstica": "Insulin",
-            "Importancia": 0.034643163793833275
-        },
-        {
-            "Caracter\u00edstica": "Pregnancies",
-            "Importancia": 0.0
-        },
-        {
-            "Caracter\u00edstica": "SkinThickness",
-            "Importancia": 0.0
-        },
-        {
-            "Caracter\u00edstica": "BloodPressure",
-            "Importancia": 0.0
-        },
-        {
-            "Caracter\u00edstica": "DiabetesPedigreeFunction",
-            "Importancia": 0.0
+            "Importancia": 0.16892217888432845
         },
         {
             "Caracter\u00edstica": "Age",
+            "Importancia": 0.08631433895325222
+        },
+        {
+            "Caracter\u00edstica": "DiabetesPedigreeFunction",
+            "Importancia": 0.06919209106279181
+        },
+        {
+            "Caracter\u00edstica": "Insulin",
+            "Importancia": 0.06583755134852645
+        },
+        {
+            "Caracter\u00edstica": "Pregnancies",
+            "Importancia": 0.03661769857013611
+        },
+        {
+            "Caracter\u00edstica": "BloodPressure",
+            "Importancia": 0.015853435095233858
+        },
+        {
+            "Caracter\u00edstica": "SkinThickness",
             "Importancia": 0.0
         }
     ]
